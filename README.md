@@ -19,4 +19,5 @@ While all of us will be assisting each other and likely doing the same work, som
 
 ## Kanban
 
-[insert kanban]
+https://github.com/MaDavilaJr/ProjectAPIs/projects/1
+![image](https://user-images.githubusercontent.com/93358568/143275574-b935f834-9fda-464c-8a28-fe8c7babe638.png)
