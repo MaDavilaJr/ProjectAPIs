@@ -9,6 +9,7 @@ Clicking a button will lead you to a spotify playlist related to Final Fantasy. 
 [insert wireframe]
 # APIs used 
 
+We are using both the Final Fantasy XIV API and Spotify API.
 https://xivapi.com/ https://developer.spotify.com/documentation/web-api/ 
 # The Breakdown
 
