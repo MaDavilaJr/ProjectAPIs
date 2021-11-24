@@ -19,12 +19,3 @@ While all of us will be assisting each other and likely doing the same work, som
 ## Kanban
 
 [insert kanban]
-
-When the user picks a class, clicking submit 
-Index, JS, Project 
-1Project title
-2Project description
-3User story
-4Wireframe or sketch of the design
-5APIs to be used
-6Rough breakdown of tasks and screenshot of Kanban board
