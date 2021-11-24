@@ -1,6 +1,22 @@
 # ProjectAPIs: Final-Songlist Bulletin
-First project between Mario, Miguel, Chad, and Akash.
-An attempt to create a non unapprehensive songlist correlated 
+
+An attempt to create a non unapprehensive songlist about the hit-MMO Final Fantasy 15 (FFXIV for short). 
+# User Story
+
+Clicking a button will lead you to a spotify playlist related to Final Fantasy. In addition to this, there are multiple selections available based on class, specialization and other character selection options. 
+# Wireframe (an example of to-be)
+
+[insert wireframe]
+# APIs used 
+
+https://xivapi.com/ https://developer.spotify.com/documentation/web-api/ 
+# The Breakdown
+
+While all of us will be assisting each other and likely doing the same work, some of us will be specifically focusing on one thing to gets us all started. Akash will work on the HTML, Mario started on the Javascript, and Chad and I will be working on both respectively to assist and add until we all finalize a presentable product. 
+
+## Kanban
+
+[insert kanban]
 
 When the user picks a class, clicking submit 
 Index, JS, Project 
