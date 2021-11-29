@@ -1,3 +1,11 @@
+// add event listener to enter own gamertag and server info 
+
+// dropdown for servers list
+
+
+
+
+
 var gamertag = "Darkstar+Dazed"
 var server = "Midgardsormr"
 var characterClass;
@@ -61,7 +69,6 @@ function getToken() {
 
             {
                 id: "6eKyKActXCC461qnxgmzPD",
-                id: "14e830fefba64935",
                 chars: ["Paladin", "Warrior", "Dark Knight", "Gunbreaker"]
             },
 
@@ -72,20 +79,18 @@ function getToken() {
 
             {
                 id: "5vHLUsARW8qbh3uNQfJPTn",
-                id: "53b0c57fa42b40f9",
                 chars: ["Bard", "Machinist", "Dancer", "Black Mage", "Summoner", "Red Mage", "Blue Mage"]
             },
 
             {
                 id: "56kF0kPVkIXb8T7LIf3kbg",
-                id: "1ccb9e3fe5554e8a",
                 chars: ["White Mage", "Scholar", "Astrologian"]
             }
 
         ]
 
         // var charindex;
-        console.log(characterClass)
+        // console.log(characterClass)
         for (var i = 0; i < characters.length; i++) {
             if (characters[i].chars.indexOf(characterClass) !== -1) {
                 playlistId = characters[i].id;
@@ -113,8 +118,3 @@ function getToken() {
 
 //access_token
 var token = localStorage.getItem("token")
-
-
-
-
-// dropdown for servers list
