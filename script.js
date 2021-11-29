@@ -1,3 +1,11 @@
+// add event listener to enter own gamertag and server info 
+
+// dropdown for servers list
+
+
+
+
+
 var gamertag = "Darkstar+Dazed"
 var server = "Midgardsormr"
 var characterClass;
@@ -82,7 +90,7 @@ function getToken() {
         ]
 
         // var charindex;
-        console.log(characterClass)
+        // console.log(characterClass)
         for (var i = 0; i < characters.length; i++) {
             if (characters[i].chars.indexOf(characterClass) !== -1) {
                 playlistId = characters[i].id;
@@ -110,8 +118,3 @@ function getToken() {
 
 //access_token
 var token = localStorage.getItem("token")
-
-
-
-
-// dropdown for servers list
