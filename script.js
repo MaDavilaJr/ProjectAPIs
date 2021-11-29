@@ -3,9 +3,6 @@ var server = "Midgardsormr"
 
 
 
-
-
-
 // replace name with search function
 
 fetch("https://xivapi.com/character/search?name=" + gamertag + "&server=" + server)
@@ -27,7 +24,24 @@ fetch("https://xivapi.com/character/search?name=" + gamertag + "&server=" + serv
             .then(function(data) {
                 console.log(data.Character.ActiveClassJob.Name);
             });
+
+
+
+
+        // add code to make this display on screen so user has visual representation of active class job for playlist
+
+        // add array of tanks, dps, and healers > if array = x, then play playlist y 
+
     });
+
+getToken()
+
+
+var characterClass = data.Character.ActiveClassJob.Name
+var tanks = ["Paladin", "Warrior", "Dark Knight", "Gunbreaker"];
+var meleeDps = ["Monk", "Dragoon", "Ninja", "Samurai"];
+var rangedDps = ["Bard", "Machinist", "Dancer", "Black Mage", "Summoner", "Red Mage", "Blue Mage"];
+var healers = ["White Mage", "Scholar", "Astrologian"];
 
 
 
