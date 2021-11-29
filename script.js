@@ -60,7 +60,7 @@ function getToken() {
         var characters = [
 
             {
-                id: "14e830fefba64935",
+                id: "6eKyKActXCC461qnxgmzPD",
                 chars: ["Paladin", "Warrior", "Dark Knight", "Gunbreaker"]
             },
 
@@ -70,12 +70,12 @@ function getToken() {
             },
 
             {
-                id: "53b0c57fa42b40f9",
+                id: "5vHLUsARW8qbh3uNQfJPTn",
                 chars: ["Bard", "Machinist", "Dancer", "Black Mage", "Summoner", "Red Mage", "Blue Mage"]
             },
 
             {
-                id: "1ccb9e3fe5554e8a",
+                id: "56kF0kPVkIXb8T7LIf3kbg",
                 chars: ["White Mage", "Scholar", "Astrologian"]
             }
 
