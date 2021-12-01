@@ -54,8 +54,11 @@ function runAPIs(event) {
                     getToken();
                     // append current class on screen 
                     var currentClass = document.querySelector("#activeClass")
+                    currentClass.textContent = ""
                     currentClass.append(characterClass)
                     console.log(currentClass)
+                        // erase previous append 
+
                 });
 
 
@@ -80,7 +83,7 @@ function runAPIs(event) {
         }).then(function(response) {
             console.log(response)
             localStorage.setItem("token", response.access_token)
-                // localStorage.setItem("token-time", moment().format("HH:mm"))
+
 
             // add array of tanks, dps, and healers => if array , then play playlist 
             var playlistId;
@@ -133,14 +136,14 @@ function runAPIs(event) {
                 var url = "https://open.spotify.com/embed/playlist/" + playlistId
                 console.log(url)
                 playlistEl.setAttribute("src", url)
-                    // localStorage.setItem("token", response.access_token)
-                    // localStorage.setItem("token-time", moment().format("HH:mm"))
+
+                // disply-show for playlist box 
+                document.querySelector(".playlistBox").style.display = "block";
             });
         });
     };
 
-    //access_token
-    var token = localStorage.getItem("token")
+
 
 }
 
