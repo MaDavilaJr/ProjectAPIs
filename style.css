@@ -1,6 +1,7 @@
 body,
 html {
     height: 100%;
+    background-color: lightgrey;
 }
 
 
@@ -28,4 +29,17 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar .navbar-expand-lg .navbar-light .bg-secondary {
+    background-color: cyan;
+}
+/* This isnt working and i have no clue how to make it ;-; */
+
+.playlistBox {
+    border: 15px solid cyan;
 }
