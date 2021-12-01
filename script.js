@@ -52,12 +52,14 @@ function runAPIs(event) {
                     characterClass = data.Character.ActiveClassJob.UnlockedState.Name;
                     console.log(data)
                     getToken();
+                    // append current class on screen 
+                    var currentClass = document.querySelector("#activeClass")
+                    currentClass.append(characterClass)
+                    console.log(currentClass)
                 });
 
 
 
-
-            // append current class on screen 
 
 
         });
