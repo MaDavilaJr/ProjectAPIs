@@ -39,13 +39,15 @@ h4 {
     color: white;
 }
 
-.navbar .navbar-expand-lg .navbar-light .bg-secondary {
-    background-color: cyan;
+.playlistBox {
+    border: 5px solid white;
+    width: 300px;
+    margin:50px auto;
+    display: none;
 }
 
 
-/* This isnt working and i have no clue how to make it ;-; */
 
-.playlistBox {
-    border: 15px solid cyan;
+.bg-cyan {
+    background-color: cyan;
 }
