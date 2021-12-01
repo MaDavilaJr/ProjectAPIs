@@ -85,22 +85,22 @@ function runAPIs(event) {
 
                 {
                     id: "6eKyKActXCC461qnxgmzPD",
-                    chars: ["Paladin", "Warrior", "Dark Knight", "Gunbreaker"]
+                    chars: ["Paladin", "Gladiator", "Warrior", "Marauder", "Dark Knight", "Gunbreaker"]
                 },
 
                 {
                     id: "1yE6nAgAtmm3W7mciZ8dZW",
-                    chars: ["Monk", "Dragoon", "Ninja", "Samurai"]
+                    chars: ["Pugilist", "Monk", "Lancer", "Dragoon", "Rogue", "Ninja", "Samurai"]
                 },
 
                 {
                     id: "5vHLUsARW8qbh3uNQfJPTn",
-                    chars: ["Bard", "Machinist", "Dancer", "Black Mage", "Summoner", "Red Mage", "Blue Mage"]
+                    chars: ["Archer", "Bard", "Machinist", "Dancer", "Thaumaturge", "Black Mage", "Arcanist", "Summoner", "Red Mage", "Blue Mage"]
                 },
 
                 {
                     id: "56kF0kPVkIXb8T7LIf3kbg",
-                    chars: ["White Mage", "Scholar", "Astrologian"]
+                    chars: ["Conjurer", "White Mage", "Scholar", "Astrologian"]
                 }
 
             ]
