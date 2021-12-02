@@ -1,7 +1,11 @@
-body,
-html {
-    height: 100%;
-    background-color: lightgrey;
+
+
+body {
+    height: 100vh;
+    background: url(imgs/1749225.jpg);
+    background-size: cover;
+    width: 100%;
+    /* opacity: 0.2; */
 }
 
 h4 {
@@ -41,13 +45,40 @@ h4 {
 
 .playlistBox {
     border: 5px solid white;
-    width: 300px;
+    width: 500px;
+    height: 250px;
     margin:50px auto;
     display: none;
+}
+
+#playlist {
+    margin-left: 19%;
+    margin-top: 10%;
 }
 
 
 
 .bg-cyan {
     background-color: cyan;
+}
+
+
+.siderightImage {
+    width:300px;
+    background: url(imgs/f1IIiWOC7hQj8RjIEZ0nYhuhP4pppOgu_CGEPkuqLJQ.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    float: right;
+    border-radius: 5px;
+}
+
+.sideleftImage {
+    width:300px;
+    background: url(imgs/fph5s28jnb131.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    float: left;
+    border-radius: 5px;
 }
