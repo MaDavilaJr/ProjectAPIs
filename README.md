@@ -4,10 +4,10 @@ An attempt to create an easy to understand songlist about the hit-MMO Final Fant
 # User Story
 
 Clicking a button will lead you to a spotify playlist related to Final Fantasy. In addition to this, there are multiple selections available based on class, specialization and other character selection options. 
-# Wireframe (an example of to-be)
+# Wireframe 
 
-![Imgur](https://i.imgur.com/lmL7r00.jpg)
-[insert wireframe]
+![Imgur](https://cdn.discordapp.com/attachments/912805221917392958/916034659798896691/C__Users_dirtn_ProjectAPIs_index.html.png)
+
 # APIs used 
 
 We are using both the Final Fantasy XIV API and Spotify API.
