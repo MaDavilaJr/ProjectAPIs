@@ -42,11 +42,9 @@ h4 {
 .playlistBox {
     border: 5px solid white;
     width: 300px;
-    margin:50px auto;
+    margin: 50px auto;
     display: none;
 }
-
-
 
 .bg-cyan {
     background-color: cyan;
